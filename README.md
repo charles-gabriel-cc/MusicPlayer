@@ -1,21 +1,17 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c1d95,50:7c3aed,100:a855f7&height=170&section=header&text=MusicPlayer&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Player%20de%20M%C3%BAsica%20Multithreaded%20em%20Java&descAlignY=65&descSize=16" width="100%" alt="Banner" />
-</div>
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Threads-Concorr%C3%AAncia-7C3AED?style=for-the-badge" alt="Threads" />
+  <img src=".github/banner.svg" alt="MusicPlayer" width="100%" />
 </p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Threads-Concorr%C3%AAncia-7C3AED?style=flat-square" alt="Threads" />
+</p>
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Simulador de **player de música multithreaded** em **Java**, desenvolvido para praticar programação concorrente com `Thread` e coleções sincronizadas (`Vector<Music>`), separando operações de gerenciamento da playlist, reprodução e controle de tempo em threads dedicadas.
 
----
-
-## 📂 Estrutura do Código (`src/`)
+## Estrutura do Código (`src/`)
 
 | Classe | Responsabilidade |
 | :--- | :--- |
@@ -27,9 +23,7 @@ Simulador de **player de música multithreaded** em **Java**, desenvolvido para 
 | `Delete.java` | Thread para remoção de músicas por nome |
 | `List.java` | Thread para listagem da fila de reprodução |
 
----
-
-## 🚀 Como Executar
+## Como Executar
 
 ```bash
 git clone https://github.com/charles-gabriel-cc/MusicPlayer.git
